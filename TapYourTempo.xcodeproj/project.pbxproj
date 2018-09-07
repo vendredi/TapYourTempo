@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080C5860202A821E002F3888 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C585F202A821E002F3888 /* Calculate.swift */; };
+		08103BA32021591800C99835 /* UIObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08103BA22021591800C99835 /* UIObjects.swift */; };
+		08103BA52021727300C99835 /* archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08103BA42021727300C99835 /* archive.swift */; };
+		08AE5061204E1C8D005AA39F /* bpmBeatWoodBlockKick2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 08AE5060204E1C8D005AA39F /* bpmBeatWoodBlockKick2.aiff */; };
+		08BB59782028E5EA00815418 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB59772028E5EA00815418 /* AVKit.framework */; };
 		08E1AED51FCF467000F43620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E1AED41FCF467000F43620 /* AppDelegate.swift */; };
 		08E1AED71FCF467000F43620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E1AED61FCF467000F43620 /* ViewController.swift */; };
 		08E1AEDA1FCF467000F43620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E1AED81FCF467000F43620 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		08E1AEDF1FCF467000F43620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E1AEDD1FCF467000F43620 /* LaunchScreen.storyboard */; };
 		08E1AEEA1FCF467000F43620 /* TapYourTempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E1AEE91FCF467000F43620 /* TapYourTempoTests.swift */; };
 		08E1AEF51FCF467000F43620 /* TapYourTempoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E1AEF41FCF467000F43620 /* TapYourTempoUITests.swift */; };
+		08F56901214021510076958F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F56900214021510076958F /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080C585F202A821E002F3888 /* Calculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		08103BA22021591800C99835 /* UIObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIObjects.swift; sourceTree = "<group>"; };
+		08103BA42021727300C99835 /* archive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = archive.swift; sourceTree = "<group>"; };
+		08AE5060204E1C8D005AA39F /* bpmBeatWoodBlockKick2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = bpmBeatWoodBlockKick2.aiff; sourceTree = "<group>"; };
+		08BB59772028E5EA00815418 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		08E1AED11FCF467000F43620 /* TapYourTempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapYourTempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E1AED41FCF467000F43620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08E1AED61FCF467000F43620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		08E1AEF01FCF467000F43620 /* TapYourTempoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapYourTempoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E1AEF41FCF467000F43620 /* TapYourTempoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapYourTempoUITests.swift; sourceTree = "<group>"; };
 		08E1AEF61FCF467000F43620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F56900214021510076958F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BB59782028E5EA00815418 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0826DA70204D94860098F3D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08E1AED61FCF467000F43620 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0826DA71204D948C0098F3D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08103BA22021591800C99835 /* UIObjects.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0826DA72204D94910098F3D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				080C585F202A821E002F3888 /* Calculate.swift */,
+				08F56900214021510076958F /* Strings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08BB59712028AF6B00815418 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				08AE5060204E1C8D005AA39F /* bpmBeatWoodBlockKick2.aiff */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		08BB59762028E5EA00815418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BB59772028E5EA00815418 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		08E1AEC81FCF466F00F43620 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,7 @@
 				08E1AEE81FCF467000F43620 /* TapYourTempoTests */,
 				08E1AEF31FCF467000F43620 /* TapYourTempoUITests */,
 				08E1AED21FCF467000F43620 /* Products */,
+				08BB59762028E5EA00815418 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +152,16 @@
 		08E1AED31FCF467000F43620 /* TapYourTempo */ = {
 			isa = PBXGroup;
 			children = (
-				08E1AED41FCF467000F43620 /* AppDelegate.swift */,
-				08E1AED61FCF467000F43620 /* ViewController.swift */,
-				08E1AED81FCF467000F43620 /* Main.storyboard */,
+				0826DA72204D94910098F3D0 /* Model */,
+				0826DA71204D948C0098F3D0 /* View */,
+				0826DA70204D94860098F3D0 /* Controller */,
+				08BB59712028AF6B00815418 /* sounds */,
 				08E1AEDB1FCF467000F43620 /* Assets.xcassets */,
+				08E1AED41FCF467000F43620 /* AppDelegate.swift */,
+				08E1AED81FCF467000F43620 /* Main.storyboard */,
 				08E1AEDD1FCF467000F43620 /* LaunchScreen.storyboard */,
 				08E1AEE01FCF467000F43620 /* Info.plist */,
+				08103BA42021727300C99835 /* archive.swift */,
 			);
 			path = TapYourTempo;
 			sourceTree = "<group>";
@@ -188,11 +247,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ted Sauerbrey";
 				TargetAttributes = {
 					08E1AED01FCF467000F43620 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					08E1AEE41FCF467000F43620 = {
@@ -235,6 +295,7 @@
 				08E1AEDF1FCF467000F43620 /* LaunchScreen.storyboard in Resources */,
 				08E1AEDC1FCF467000F43620 /* Assets.xcassets in Resources */,
 				08E1AEDA1FCF467000F43620 /* Main.storyboard in Resources */,
+				08AE5061204E1C8D005AA39F /* bpmBeatWoodBlockKick2.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08103BA32021591800C99835 /* UIObjects.swift in Sources */,
 				08E1AED71FCF467000F43620 /* ViewController.swift in Sources */,
+				08103BA52021727300C99835 /* archive.swift in Sources */,
+				080C5860202A821E002F3888 /* Calculate.swift in Sources */,
+				08F56901214021510076958F /* Strings.swift in Sources */,
 				08E1AED51FCF467000F43620 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +394,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +402,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +453,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +461,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -426,11 +495,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPSU7MCKU8;
 				INFOPLIST_FILE = TapYourTempo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TapYourTempo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +515,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPSU7MCKU8;
 				INFOPLIST_FILE = TapYourTempo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TapYourTempo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
